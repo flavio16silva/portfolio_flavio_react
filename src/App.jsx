@@ -1,11 +1,13 @@
+// import logoImg from './assets/coffeeTres.png'
+
 const App = () => {
   return (
     <>
       {/* NAVBAR */}
       <nav className="navbar">
-        <div class="navbar__content max-width mb-0">
+        <div className="navbar__content max-width mb-0">
           <a href="/">
-            <img src="assets/coffeeTres.png" alt="Flavio Silva" />
+            <img src={'/coffeeTres.png'} alt="Flavio Silva" />
           </a>
           <ul className="navbar__links">
             <li><a href="#header">Início</a></li>
