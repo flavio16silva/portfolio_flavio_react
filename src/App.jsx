@@ -50,22 +50,41 @@ const App = () => {
       </header>
 
       {/* SOBRE */}
-      <section id="sobre">
-        <h2>Sobre</h2>
-        <p>
-          Texto sobre mim.
-        </p>
+      <section id="about" className="about max-width">
+        <div className="about__left">
+          <h2 className="secondary-title">Além do código: quem sou eu?</h2>
+          <p>
+            Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre
+            meu trabalho?
+          </p>
+          <ul>
+            <li>
+              <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/" target="_blank" ><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+            </li>
+          </ul>
+        </div>
+        <div className="about__right">
+          <h3 className="tertiary-title mb-m">
+            Desenvolvedor Front End descobrindo os caminhos da tecnologia e as soluções criativas.
+          </h3>
+          <p>
+            Olá, sou Flávio Silva, um entusiasta de desenvolvimento Front-End em busca constante de conhecimento e aprendizado nas mais recentes tecnologias. Embora minha experiência em desenvolvimento web seja recente, tenho dedicado meu tempo a trabalhar com diversas tecnologias e plataformas, com o objetivo de criar soluções que atendam de forma eficaz às necessidades dos clientes.
+          </p>
+          <p>
+            Desafios complexos são minha motivação, e estou sempre em busca de soluções inovadoras e criativas para superá-los. A cada dia, reservo tempo para aprofundar meu entendimento e aprimorar minhas habilidades nas tecnologias atuais. Minha paixão pela aprendizagem constante é o motor que impulsiona meu crescimento profissional. Estou ansioso para enfrentar novos desafios e contribuir para projetos empolgantes.
+
+          </p>
+        </div>
       </section>
 
       {/* HABILIDADES */}
-      <section id="habilidades">
-        <h2>Habilidades</h2>
-      </section>
+
 
       {/* PROJETOS */}
-      <section id="projetos">
-        <h2>Projetos</h2>
-      </section>
+
 
       {/* FOOTER */}
       <footer>
