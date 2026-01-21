@@ -2,8 +2,29 @@ const App = () => {
   return (
     <>
       {/* NAVBAR */}
-      <nav>
-        <h1>Flávio</h1>
+      <nav className="navbar">
+        <div class="navbar__content max-width mb-0">
+          <a href="/">
+            <img src="assets/coffeeTres.png" alt="Flavio Silva" />
+          </a>
+          <ul className="navbar__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+          <div className="navbar__mobile">
+            <img src="assets/menu.svg" alt="menu" className="burguer" />
+            <ul className="mobile__links">
+              <li><a href="#header">Início</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#skills">Habilidades</a></li>
+              <li><a href="#projects">Projetos</a></li>
+              <li><a href="#footer">Contato</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
 
       {/* HEADER */}
