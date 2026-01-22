@@ -215,7 +215,9 @@ const App = () => {
                     <div className="desc">
                       <p>Conheça o código pelo repositório do GitHub</p>
                       <div className="btns">
-
+                        <a href="#" className="btn" target="_blank"
+                        >Código <i className="fas fa-code"></i
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -229,7 +231,6 @@ const App = () => {
               <p>
                 Meu primeiro projeto envolveu a manipulação de imagens, texto e efeitos de <strong>parallax</strong>. Foi uma oportunidade de aprender sobre responsividade, media queries e o uso de unidades relativas. Como todo começo, enfrentei diversos desafios, dúvidas e, é claro, algumas repetições no processo de aprendizado. No entanto, esses obstáculos iniciais serviram como valiosas lições, ajudando-me a solidificar meu conhecimento e aprimorar minhas habilidades.
               </p>
-              {/* <a href="#">Leia mais &rarr;</a>  */}
             </div>
           </li>
           <li className="projects__reversed-list">
@@ -260,7 +261,6 @@ const App = () => {
               <p>
                 Projeto que despertou a paixão por JavaScript, onde trilhei os passos iniciais. Trabalhando com laços e manipulação do DOM. A aplicação do CSS mostrou-me novos conceitos.
               </p>
-              {/* <a href="#">Leia mais &rarr;</a> */}
             </div>
           </li>
           <li>
@@ -275,7 +275,9 @@ const App = () => {
                     <div className="desc">
                       <p>Conheça o código pelo repositório do GitHub</p>
                       <div className="btns">
-
+                        <a href="#" className="btn" target="_blank"
+                        >Código <i className="fas fa-code"></i
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -290,7 +292,6 @@ const App = () => {
                 Tela de login mobile desenvolvida com responsividade pelas media queries, ícones de mídias sociais ativos e formulário de login.
                 Aplicados técnicas de responsividade em diferentes dispositivos.
               </p>
-              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
             </div>
           </li>
           <li className="projects__reversed-list">
@@ -305,9 +306,9 @@ const App = () => {
                     <div className="desc">
                       <p>Conheça o código pelo repositório do GitHub</p>
                       <div className="btns">
-                        {/* <a href=https://github.com/flavio16silva/Devs className="btn" target="_blank"
+                        <a href="#" className="btn" target="_blank"
                         >Código <i className="fas fa-code"></i
-                          ></a> */}
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -321,7 +322,6 @@ const App = () => {
               <p>
                 Formulário criado com HTML e CSS para treinar, pesquisar e desempenhar alinhamento, tags semânticas, conceitos iniciais de Front End.
               </p>
-              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
             </div>
           </li>
           <li>
@@ -336,9 +336,9 @@ const App = () => {
                     <div className="desc">
                       <p>Conheça o código pelo repositório do GitHub</p>
                       <div className="btns">
-                        {/* <a href=https://github.com/flavio16silva/HoradoDia className="btn" target="_blank"
+                        <a href="#" className="btn" target="_blank"
                         >Código <i className="fas fa-code"></i
-                          ></a> */}
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -352,7 +352,6 @@ const App = () => {
               <p>
                 Projeto criado com base em HTML, CSS e JavaScript trabalhando interação com funções, DOM. Interação com o sistema operacional do windows, podendo ser informado um horário manual.
               </p>
-              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
             </div>
           </li>
           <li className="projects__reversed-list">
@@ -367,9 +366,9 @@ const App = () => {
                     <div className="desc">
                       <p>Conheça o código pelo repositório do GitHub</p>
                       <div className="btns">
-                        {/* <a href=https://github.com/flavio16silva/FeiraFrutas className="btn" target="_blank"
+                        <a href="#" className="btn" target="_blank"
                         >Código <i className="fas fa-code"></i
-                          ></a> */}
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -383,7 +382,6 @@ const App = () => {
               <p>
                 Feira livre para compras de frutas trabalhando com inputs do HTML, responsividade do CSS e tratativa de lógica com valores de inputs, atributos, template strings e manipulando o DOM pelo JavaScript. A estrutura de botões são responsivos e mantém suas funcionalidades em diversos dispositivos.
               </p>
-              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
             </div>
           </li>
           <li>
@@ -398,8 +396,9 @@ const App = () => {
                     <div className="desc">
                       <p>Conheça o código pelo repositório do GitHub</p>
                       <div className="btns">
-                        {/* <a href=https://github.com/flavio16silva/HoradoDia className="btn" target="_blank"> Código <i className="fas fa-code"></i
-                          ></a> */}
+                        <a href="#" className="btn" target="_blank"
+                        >Código <i className="fas fa-code"></i
+                        ></a>
                       </div>
                     </div>
                   </div>
@@ -413,7 +412,6 @@ const App = () => {
               <p>
                 Foi criado um Controle Financeiro, onde adiciona as transações no DOM, executa o preenchimento das informações do estado da aplicação quando a pagina for carregada, atualiza o valor das transações na tela (Saldo, Receitas e Despesas), armazenamento e adição das Transações Realizadas no Local Storage, remoção de Transações e execução dos eventos no formulário.
               </p>
-              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
             </div>
           </li>
         </ul>
