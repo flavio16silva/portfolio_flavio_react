@@ -205,7 +205,233 @@ const App = () => {
       </section>
 
       {/* PROJETOS */}
+      <section id="projects" className="projects max-width">
+        <div className="projects__content">
+          <h2 className="secondary-title">Projetos em Destaque</h2>
+          <p>
+            De ideias abstratas a projetos bem-sucedidos, estão alguns dos
+            meus trabalhos mais recentes.
+          </p>
+        </div>
+        <ul>
+          <li>
+            <section className="trabalhos" id="trabalhos">
+              <div className="caixa-conteudo">
+                <div className="caixa tilt">
+                  <img src="assets/projetos/projeto1.png" alt="" />
+                  <div className="conteudo">
+                    <div className="tag">
+                      <h3>Salmo 91</h3>
+                    </div>
+                    <div className="desc">
+                      <p>Conheça o código pelo repositório do GitHub</p>
+                      <div className="btns">
 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div className="projects__info">
+              <h3 className="tertiary-title">
+                Efeito Parallax como projeto pessoal.
+              </h3>
+              <p>
+                Meu primeiro projeto envolveu a manipulação de imagens, texto e efeitos de <strong>parallax</strong>. Foi uma oportunidade de aprender sobre responsividade, media queries e o uso de unidades relativas. Como todo começo, enfrentei diversos desafios, dúvidas e, é claro, algumas repetições no processo de aprendizado. No entanto, esses obstáculos iniciais serviram como valiosas lições, ajudando-me a solidificar meu conhecimento e aprimorar minhas habilidades.
+              </p>
+              {/* <a href="#">Leia mais &rarr;</a>  */}
+            </div>
+          </li>
+          <li className="projects__reversed-list">
+            <section className="trabalhos" id="trabalhos">
+              <div className="caixa-conteudo">
+                <div className="caixa tilt">
+                  <img src="assets/projetos/calculadoraGorjeta.png" alt="" />
+                  <div className="conteudo">
+                    <div className="tag">
+                      <h3>Calculadora de Gorjetas</h3>
+                    </div>
+                    <div className="desc">
+                      <p>Conheça o código pelo repositório do GitHub</p>
+                      <div className="btns">
+                        <a href="#" className="btn" target="_blank"
+                        >Código <i className="fas fa-code"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div className="projects__info">
+              <h3 className="tertiary-title">
+                Calculadora de Gorjeta
+              </h3>
+              <p>
+                Projeto que despertou a paixão por JavaScript, onde trilhei os passos iniciais. Trabalhando com laços e manipulação do DOM. A aplicação do CSS mostrou-me novos conceitos.
+              </p>
+              {/* <a href="#">Leia mais &rarr;</a> */}
+            </div>
+          </li>
+          <li>
+            <section className="trabalhos" id="trabalhos">
+              <div className="caixa-conteudo">
+                <div className="caixa tilt">
+                  <img src="assets/projetos/telaLogin.png" alt="" />
+                  <div className="conteudo">
+                    <div className="tag">
+                      <h3>Conceitos de mobile-first</h3>
+                    </div>
+                    <div className="desc">
+                      <p>Conheça o código pelo repositório do GitHub</p>
+                      <div className="btns">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div className="projects__info">
+              <h3 className="tertiary-title">
+                Tela de Login Mobile com Redes Sociais
+              </h3>
+              <p>
+                Tela de login mobile desenvolvida com responsividade pelas media queries, ícones de mídias sociais ativos e formulário de login.
+                Aplicados técnicas de responsividade em diferentes dispositivos.
+              </p>
+              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
+            </div>
+          </li>
+          <li className="projects__reversed-list">
+            <section className="trabalhos" id="trabalhos">
+              <div className="caixa-conteudo">
+                <div className="caixa tilt">
+                  <img src="assets/projetos/FormCadastro.png" alt="" />
+                  <div className="conteudo">
+                    <div className="tag">
+                      <h3>Formulário de Cadastro</h3>
+                    </div>
+                    <div className="desc">
+                      <p>Conheça o código pelo repositório do GitHub</p>
+                      <div className="btns">
+                        {/* <a href=https://github.com/flavio16silva/Devs className="btn" target="_blank"
+                        >Código <i className="fas fa-code"></i
+                          ></a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div className="projects__info">
+              <h3 className="tertiary-title">
+                Formulário de Cadastro
+              </h3>
+              <p>
+                Formulário criado com HTML e CSS para treinar, pesquisar e desempenhar alinhamento, tags semânticas, conceitos iniciais de Front End.
+              </p>
+              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
+            </div>
+          </li>
+          <li>
+            <section className="trabalhos" id="trabalhos">
+              <div className="caixa-conteudo">
+                <div className="caixa tilt">
+                  <img src="assets/projetos/HoradoDia.png" alt="" />
+                  <div className="conteudo">
+                    <div className="tag">
+                      <h3>Horário do Dia</h3>
+                    </div>
+                    <div className="desc">
+                      <p>Conheça o código pelo repositório do GitHub</p>
+                      <div className="btns">
+                        {/* <a href=https://github.com/flavio16silva/HoradoDia className="btn" target="_blank"
+                        >Código <i className="fas fa-code"></i
+                          ></a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div className="projects__info">
+              <h3 className="tertiary-title">
+                Horário do Dia
+              </h3>
+              <p>
+                Projeto criado com base em HTML, CSS e JavaScript trabalhando interação com funções, DOM. Interação com o sistema operacional do windows, podendo ser informado um horário manual.
+              </p>
+              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
+            </div>
+          </li>
+          <li className="projects__reversed-list">
+            <section className="trabalhos" id="trabalhos">
+              <div className="caixa-conteudo">
+                <div className="caixa tilt">
+                  <img src="assets/projetos/FeiraFrutas.png" alt="" />
+                  <div className="conteudo">
+                    <div className="tag">
+                      <h3>Feira de Frutas</h3>
+                    </div>
+                    <div className="desc">
+                      <p>Conheça o código pelo repositório do GitHub</p>
+                      <div className="btns">
+                        {/* <a href=https://github.com/flavio16silva/FeiraFrutas className="btn" target="_blank"
+                        >Código <i className="fas fa-code"></i
+                          ></a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div className="projects__info">
+              <h3 className="tertiary-title">
+                Cards com Feira de Frutas
+              </h3>
+              <p>
+                Feira livre para compras de frutas trabalhando com inputs do HTML, responsividade do CSS e tratativa de lógica com valores de inputs, atributos, template strings e manipulando o DOM pelo JavaScript. A estrutura de botões são responsivos e mantém suas funcionalidades em diversos dispositivos.
+              </p>
+              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
+            </div>
+          </li>
+          <li>
+            <section className="trabalhos" id="trabalhos">
+              <div className="caixa-conteudo">
+                <div className="caixa tilt">
+                  <img src="assets/projetos/controleFinanceiro.jpg" alt="" />
+                  <div className="conteudo">
+                    <div className="tag">
+                      <h3>Controle Financeiro</h3>
+                    </div>
+                    <div className="desc">
+                      <p>Conheça o código pelo repositório do GitHub</p>
+                      <div className="btns">
+                        {/* <a href=https://github.com/flavio16silva/HoradoDia className="btn" target="_blank"> Código <i className="fas fa-code"></i
+                          ></a> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <div className="projects__info">
+              <h3 className="tertiary-title">
+                Controle Financeiro
+              </h3>
+              <p>
+                Foi criado um Controle Financeiro, onde adiciona as transações no DOM, executa o preenchimento das informações do estado da aplicação quando a pagina for carregada, atualiza o valor das transações na tela (Saldo, Receitas e Despesas), armazenamento e adição das Transações Realizadas no Local Storage, remoção de Transações e execução dos eventos no formulário.
+              </p>
+              {/* <!-- <a href="#">Leia mais &rarr;</a> --> */}
+            </div>
+          </li>
+        </ul>
+
+        <p className="texto" >  <span className="citacao"></span></p>
+
+      </section>
 
       {/* FOOTER */}
       <footer>
