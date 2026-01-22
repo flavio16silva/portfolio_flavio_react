@@ -88,7 +88,7 @@ const App = () => {
           <ul>
             <li className="skills__item">
               <div className="image-container">
-                <img src="assets/notebook.png" alt="Desenvolvimento Web" />
+                <img src="/images/notebook.png" alt="Desenvolvimento Web" />
               </div>
               <h3>Desenvolvimento Web</h3>
               <p>
@@ -99,7 +99,7 @@ const App = () => {
 
             <li className="skills__item">
               <div className="image-container">
-                <img src="assets/files.png" alt="Gerenciamentos de versões" />
+                <img src="/images/files.png" alt="Gerenciamentos de versões" />
               </div>
               <h3>Gerenciamentos de versões</h3>
               <p>
