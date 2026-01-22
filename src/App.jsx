@@ -1,8 +1,3 @@
-const Navbar = () =>
-  <>
-
-  </>
-
 const Header = () =>
   <>
     <header id="header" className="max-width">
@@ -192,9 +187,6 @@ const App = () => {
     <>
       {/* HEADER */}
       <Header />
-
-      {/* NAVBAR */}
-      <Navbar />
 
       {/* SOBRE */}
       <About />
