@@ -7,7 +7,7 @@ const App = () => {
       <nav className="navbar">
         <div className="navbar__content max-width mb-0">
           <a href="/">
-            <img src={'/coffeeTres.png'} alt="Flavio Silva" />
+            <img src="/images/coffeeTres.png" alt="Flavio Silva" />
           </a>
           <ul className="navbar__links">
             <li><a href="#header">Início</a></li>
@@ -17,7 +17,7 @@ const App = () => {
             <li><a href="#footer">Contato</a></li>
           </ul>
           <div className="navbar__mobile">
-            <img src="assets/menu.svg" alt="menu" className="burguer" />
+            <img src="/images/menu.svg" alt="menu" className="burguer" />
             <ul className="mobile__links">
               <li><a href="#header">Início</a></li>
               <li><a href="#about">Sobre</a></li>
@@ -43,8 +43,8 @@ const App = () => {
 
         <div className="header__right">
           <div className="header__image">
-            <img src="assets/flaviosilva.jpg" alt="Flavio Silva" className="flavio" />
-            <img src="assets/abstract.svg" alt="background" className="background" />
+            <img src="/images/flaviosilva.jpg" alt="Flavio Silva" className="flavio" />
+            <img src="/images/abstract.svg" alt="background" className="background" />
           </div>
         </div>
       </header>
