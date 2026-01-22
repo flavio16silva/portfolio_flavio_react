@@ -59,10 +59,7 @@ const App = () => {
           </p>
           <ul>
             <li>
-              <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/" target="_blank" rel="noopener noreferrer"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+              <a href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/" target="_blank" rel="noopener noreferrer"><img src="/images/linkedin.svg" alt="Linkedin" /></a>
             </li>
           </ul>
         </div>
