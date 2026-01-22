@@ -207,7 +207,7 @@ const App = () => {
             <section className="trabalhos" id="trabalhos">
               <div className="caixa-conteudo">
                 <div className="caixa tilt">
-                  <img src="assets/projetos/projeto1.png" alt="" />
+                  <img src="/images/Salmo91.png" alt="" />
                   <div className="conteudo">
                     <div className="tag">
                       <h3>Salmo 91</h3>
@@ -236,7 +236,7 @@ const App = () => {
             <section className="trabalhos" id="trabalhos">
               <div className="caixa-conteudo">
                 <div className="caixa tilt">
-                  <img src="assets/projetos/calculadoraGorjeta.png" alt="" />
+                  <img src="/images/calculadoraGorjeta.png" alt="" />
                   <div className="conteudo">
                     <div className="tag">
                       <h3>Calculadora de Gorjetas</h3>
@@ -267,7 +267,7 @@ const App = () => {
             <section className="trabalhos" id="trabalhos">
               <div className="caixa-conteudo">
                 <div className="caixa tilt">
-                  <img src="assets/projetos/telaLogin.png" alt="" />
+                  <img src="/images/telaLogin.png" alt="" />
                   <div className="conteudo">
                     <div className="tag">
                       <h3>Conceitos de mobile-first</h3>
@@ -297,7 +297,7 @@ const App = () => {
             <section className="trabalhos" id="trabalhos">
               <div className="caixa-conteudo">
                 <div className="caixa tilt">
-                  <img src="assets/projetos/FormCadastro.png" alt="" />
+                  <img src="/images/FormCadastro.png" alt="" />
                   <div className="conteudo">
                     <div className="tag">
                       <h3>Formulário de Cadastro</h3>
@@ -328,7 +328,7 @@ const App = () => {
             <section className="trabalhos" id="trabalhos">
               <div className="caixa-conteudo">
                 <div className="caixa tilt">
-                  <img src="assets/projetos/HoradoDia.png" alt="" />
+                  <img src="/images/HoradoDia.png" alt="" />
                   <div className="conteudo">
                     <div className="tag">
                       <h3>Horário do Dia</h3>
@@ -359,7 +359,7 @@ const App = () => {
             <section className="trabalhos" id="trabalhos">
               <div className="caixa-conteudo">
                 <div className="caixa tilt">
-                  <img src="assets/projetos/FeiraFrutas.png" alt="" />
+                  <img src="/images/FeiraFrutas.png" alt="" />
                   <div className="conteudo">
                     <div className="tag">
                       <h3>Feira de Frutas</h3>
@@ -390,7 +390,7 @@ const App = () => {
             <section className="trabalhos" id="trabalhos">
               <div className="caixa-conteudo">
                 <div className="caixa tilt">
-                  <img src="assets/projetos/controleFinanceiro.jpg" alt="" />
+                  <img src="/images/controleFinanceiro.jpg" alt="" />
                   <div className="conteudo">
                     <div className="tag">
                       <h3>Controle Financeiro</h3>
