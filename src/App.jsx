@@ -479,7 +479,7 @@ const App = () => {
 
           {/* <!-- Direitos Reservados --> */}
           <p className="footer__copyright">
-            © 2023 Flávio Silva. Todos os direitos reservados.
+            © 2026 Flávio Silva. Todos os direitos reservados.
           </p>
         </div>
       </footer>
