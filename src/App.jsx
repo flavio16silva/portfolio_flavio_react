@@ -12,27 +12,15 @@ const Navbar = () =>
           <li><a href="#projects">Projetos</a></li>
           <li><a href="#footer">Contato</a></li>
         </ul>
-        <div className="navbar__mobile">
-          <img src="/images/menu.svg" alt="menu" className="burguer" />
-          <ul className="mobile__links">
-            <li><a href="#header">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#footer">Contato</a></li>
-          </ul>
-        </div>
       </div>
     </nav>
   </>
-
-
 
 const Header = () =>
   <>
     <header id="header" className="max-width">
       <Navbar />
-      <div className="header__left">
+      {/* <div className="header__left">
         <h1>Olá! Sou Flávio Silva Desenvolvedor Front End</h1>
         <p className="texto">Hoje, <span className="escrever-texto"></span></p>
 
@@ -47,11 +35,9 @@ const Header = () =>
           <img src="/images/flaviosilva.jpg" alt="Flavio Silva" className="flavio" />
           <img src="/images/abstract.svg" alt="background" className="background" />
         </div>
-      </div>
+      </div> */}
     </header>
   </>
-
-
 
 const About = () =>
   <>
@@ -84,6 +70,123 @@ const About = () =>
     </section>
   </>
 
+const Habilidades = () =>
+  <>
+    <section id="skills" className="skills">
+      <div className="skills__content max-width">
+        <h2 className="tertiary-title">Minha caixa de ferramentas</h2>
+        <p className="description">
+          Descubra as habilidades e ferramentas que busco aprender, aprimorar e que me permitem
+          criar soluções criativas e funcionais para todos.
+        </p>
+        <ul>
+          <li className="skills__item">
+            <div className="image-container">
+              <img src="/images/notebook.png" alt="Desenvolvimento Web" />
+            </div>
+            <h3>Desenvolvimento Web</h3>
+            <p>
+              No desenvolvimento Front End com foco em tecnologias
+              modernas, executando trilhas, desafios e projetos que aprimorem o raciocínio, criatividade e prática.
+            </p>
+          </li>
+
+          <li className="skills__item">
+            <div className="image-container">
+              <img src="/images/files.png" alt="Gerenciamentos de versões" />
+            </div>
+            <h3>Gerenciamentos de versões</h3>
+            <p>
+              Estudo e experiência em ferramentas de gerenciamento de versão para
+              controle de projetos com maior uso de GitHub, com manuseio e testes em GitLab e Bitbucket.
+            </p>
+          </li>
+        </ul>
+
+        <p className="linguagens">Abaixo algumas das linguagens que estudo, prático, crio e executo projetos.</p>
+
+        {/* LINHA DE LINGUAGENS */}
+        <div className="conteudo">
+          {/* Uma Linha de Habilidades*/}
+          <div className="linha" id="caixaskills">
+            <div className="bar">
+              <div className="info">
+                <img src="/images/html1.png" />
+                <span>HTML</span>
+                <h3>70%</h3>
+              </div>
+            </div>
+
+            <div className="bar">
+              <div className="info">
+                <img src="/images/css1.png" />
+                <span>CSS3</span>
+                <h3>50%</h3>
+              </div>
+            </div>
+
+            <div className="bar">
+              <div className="info">
+                <img src="/images/javascript.png" />
+                <span>JavaScript</span>
+                <h3>25%</h3>
+              </div>
+            </div>
+
+            {/*Teste*/}
+            <div className="bar">
+              <div className="info">
+                <img src="/images/python.png" />
+                <span>PYTHON</span>
+                <h3>10%</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/*SLIDER - CARDS*/}
+        <section id="port">
+          <div className="container">
+            <h2 className="secondary-title">Rotina de Estudos</h2>
+            <p className="linguagens">Considerações de um profissional apaixonado por tecnologia. </p>
+            <input type="radio" name="slider" id="item-1" checked />
+            <input type="radio" name="slider" id="item-2" />
+            <input type="radio" name="slider" id="item-3" />
+
+            {/*Seção dos Cards*/}
+            <div className="cards">
+              <label className="card" htmlFor="item-1" id="panf-1">
+                <img className="foto" src="/images/cards_web.png" alt="" />
+                <h1>Web</h1>
+                <p>
+                  Nesse campo de trabalho crescente da <strong>Web</strong> busco informações, projetos e criações que podem ser aprimoradas. São rotinas e prazos de entrega que geram melhorias no dinamismo e aceleração das práticas diárias.
+                </p>
+                <a href="#footer"><button>contrate-me</button></a>
+              </label>
+
+              <label className="card" htmlFor="item-2" id="panf-2">
+                <img src="/images/cards_response.jpg" alt="" />
+                <h1>Responsivo</h1>
+                <p>
+                  Um campo de estudos e criação de projetos, a <strong>Responsividade</strong> tem proporcionado boas práticas com mobile first gerando desafios e melhorias continuas. As ferramentas de Grid e Flexbox tem amparado e norteado a compreensão da adaptabilidade dos dispositivos.
+                </p>
+                <a href="#footer"><button>contrate-me</button></a>
+              </label>
+
+              <label className="card" htmlFor="item-3" id="panf-3">
+                <img src="/images/cards_estudos.jpg" alt="" />
+                <h1>Estudos</h1>
+                <p>
+                  Explorando projetos com maior grau de complexidade e buscando metas alcançaveis  nos <strong>estudos</strong>, isso tem gerado desafios e bons resultados. São anotações, planejamentos, escolhas de layout e aprimoramento das técnicas de uso das tecnologias.
+                </p>
+                <a href="#footer"><button>contrate-me</button></a>
+              </label>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </>
 
 const App = () => {
   return (
@@ -94,126 +197,11 @@ const App = () => {
       {/* NAVBAR */}
       <Navbar />
 
-
-
       {/* SOBRE */}
       <About />
 
       {/* HABILIDADES */}
-      <section id="skills" className="skills">
-        <div className="skills__content max-width">
-          <h2 className="tertiary-title">Minha caixa de ferramentas</h2>
-          <p className="description">
-            Descubra as habilidades e ferramentas que busco aprender, aprimorar e que me permitem
-            criar soluções criativas e funcionais para todos.
-          </p>
-          <ul>
-            <li className="skills__item">
-              <div className="image-container">
-                <img src="/images/notebook.png" alt="Desenvolvimento Web" />
-              </div>
-              <h3>Desenvolvimento Web</h3>
-              <p>
-                No desenvolvimento Front End com foco em tecnologias
-                modernas, executando trilhas, desafios e projetos que aprimorem o raciocínio, criatividade e prática.
-              </p>
-            </li>
-
-            <li className="skills__item">
-              <div className="image-container">
-                <img src="/images/files.png" alt="Gerenciamentos de versões" />
-              </div>
-              <h3>Gerenciamentos de versões</h3>
-              <p>
-                Estudo e experiência em ferramentas de gerenciamento de versão para
-                controle de projetos com maior uso de GitHub, com manuseio e testes em GitLab e Bitbucket.
-              </p>
-            </li>
-          </ul>
-
-          <p className="linguagens">Abaixo algumas das linguagens que estudo, prático, crio e executo projetos.</p>
-
-          {/* LINHA DE LINGUAGENS */}
-          <div className="conteudo">
-            {/* Uma Linha de Habilidades*/}
-            <div className="linha" id="caixaskills">
-              <div className="bar">
-                <div className="info">
-                  <img src="/images/html1.png" />
-                  <span>HTML</span>
-                  <h3>70%</h3>
-                </div>
-              </div>
-
-              <div className="bar">
-                <div className="info">
-                  <img src="/images/css1.png" />
-                  <span>CSS3</span>
-                  <h3>50%</h3>
-                </div>
-              </div>
-
-              <div className="bar">
-                <div className="info">
-                  <img src="/images/javascript.png" />
-                  <span>JavaScript</span>
-                  <h3>25%</h3>
-                </div>
-              </div>
-
-              {/*Teste*/}
-              <div className="bar">
-                <div className="info">
-                  <img src="/images/python.png" />
-                  <span>PYTHON</span>
-                  <h3>10%</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/*SLIDER - CARDS*/}
-          <section id="port">
-            <div className="container">
-              <h2 className="secondary-title">Rotina de Estudos</h2>
-              <p className="linguagens">Considerações de um profissional apaixonado por tecnologia. </p>
-              <input type="radio" name="slider" id="item-1" checked />
-              <input type="radio" name="slider" id="item-2" />
-              <input type="radio" name="slider" id="item-3" />
-
-              {/*Seção dos Cards*/}
-              <div className="cards">
-                <label className="card" htmlFor="item-1" id="panf-1">
-                  <img className="foto" src="/images/cards_web.png" alt="" />
-                  <h1>Web</h1>
-                  <p>
-                    Nesse campo de trabalho crescente da <strong>Web</strong> busco informações, projetos e criações que podem ser aprimoradas. São rotinas e prazos de entrega que geram melhorias no dinamismo e aceleração das práticas diárias.
-                  </p>
-                  <a href="#footer"><button>contrate-me</button></a>
-                </label>
-
-                <label className="card" htmlFor="item-2" id="panf-2">
-                  <img src="/images/cards_response.jpg" alt="" />
-                  <h1>Responsivo</h1>
-                  <p>
-                    Um campo de estudos e criação de projetos, a <strong>Responsividade</strong> tem proporcionado boas práticas com mobile first gerando desafios e melhorias continuas. As ferramentas de Grid e Flexbox tem amparado e norteado a compreensão da adaptabilidade dos dispositivos.
-                  </p>
-                  <a href="#footer"><button>contrate-me</button></a>
-                </label>
-
-                <label className="card" htmlFor="item-3" id="panf-3">
-                  <img src="/images/cards_estudos.jpg" alt="" />
-                  <h1>Estudos</h1>
-                  <p>
-                    Explorando projetos com maior grau de complexidade e buscando metas alcançaveis  nos <strong>estudos</strong>, isso tem gerado desafios e bons resultados. São anotações, planejamentos, escolhas de layout e aprimoramento das técnicas de uso das tecnologias.
-                  </p>
-                  <a href="#footer"><button>contrate-me</button></a>
-                </label>
-              </div>
-            </div>
-          </section>
-        </div>
-      </section>
+      <Habilidades />
 
       {/* PROJETOS */}
       <section id="projects" className="projects max-width">
