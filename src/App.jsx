@@ -117,7 +117,7 @@ const App = () => {
             <div className="linha" id="caixaskills">
               <div className="bar">
                 <div className="info">
-                  <img src="assets/html1.png" />
+                  <img src="/images/html1.png" />
                   <span>HTML</span>
                   <h3>70%</h3>
                 </div>
@@ -125,7 +125,7 @@ const App = () => {
 
               <div className="bar">
                 <div className="info">
-                  <img src="assets/css1.png" />
+                  <img src="/images/css1.png" />
                   <span>CSS3</span>
                   <h3>50%</h3>
                 </div>
@@ -133,7 +133,7 @@ const App = () => {
 
               <div className="bar">
                 <div className="info">
-                  <img src="assets/js.png" />
+                  <img src="/images/javascript.png" />
                   <span>JavaScript</span>
                   <h3>25%</h3>
                 </div>
@@ -150,7 +150,7 @@ const App = () => {
 
               <div className="bar">
                 <div className="info">
-                  <img src="assets/python.png" />
+                  <img src="/images/python.png" />
                   <span>PYTHON</span>
                   <h3>10%</h3>
                 </div>
