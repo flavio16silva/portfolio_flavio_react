@@ -62,7 +62,7 @@ const App = () => {
               <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/" target="_blank" ><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+              <a href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/" target="_blank" rel="noopener noreferrer"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
             </li>
           </ul>
         </div>
@@ -172,7 +172,7 @@ const App = () => {
 
               {/*Seção dos Cards*/}
               <div className="cards">
-                <label className="card" for="item-1" id="panf-1">
+                <label className="card" htmlFor="item-1" id="panf-1">
                   <img className="foto" src="assets/cards13.png" alt="" />
                   <h1>Web</h1>
                   <p>
@@ -181,7 +181,7 @@ const App = () => {
                   <a href="#footer"><button>contrate-me</button></a>
                 </label>
 
-                <label className="card" for="item-2" id="panf-2">
+                <label className="card" htmlFor="item-2" id="panf-2">
                   <img src="assets/cards9.jpg" alt="" />
                   <h1>Responsivo</h1>
                   <p>
@@ -190,7 +190,7 @@ const App = () => {
                   <a href="#footer"><button>contrate-me</button></a>
                 </label>
 
-                <label className="card" for="item-3" id="panf-3">
+                <label className="card" htmlFor="item-3" id="panf-3">
                   <img src="assets/cards7.jpg" alt="" />
                   <h1>Estudos</h1>
                   <p>
