@@ -8,7 +8,6 @@ const Navbar = () =>
         <ul className="navbar__links">
           <li><a href="#header">Início</a></li>
           <li><a href="#about">Sobre</a></li>
-          <li><a href="#skills">Habilidades</a></li>
           <li><a href="#projects">Projetos</a></li>
           <li><a href="#footer">Contato</a></li>
         </ul>
@@ -20,7 +19,14 @@ const Header = () =>
   <>
     <header id="header" className="max-width">
       <Navbar />
-      {/* <div className="header__left">
+
+    </header>
+  </>
+
+const About = () =>
+  <>
+    <Header />
+    <div className="header__left">
         <h1>Olá! Sou Flávio Silva Desenvolvedor Front End</h1>
         <p className="texto">Hoje, <span className="escrever-texto"></span></p>
 
@@ -35,13 +41,7 @@ const Header = () =>
           <img src="/images/flaviosilva.jpg" alt="Flavio Silva" className="flavio" />
           <img src="/images/abstract.svg" alt="background" className="background" />
         </div>
-      </div> */}
-    </header>
-  </>
-
-const About = () =>
-  <>
-    <Header />
+      </div>
     <section id="about" className="about max-width">
       <div className="about__left">
         <h2 className="secondary-title">Além do código: quem sou eu?</h2>
