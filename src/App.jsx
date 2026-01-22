@@ -15,6 +15,22 @@ const Header = () =>
         </div>
       </nav>
     </header>
+  </>  
+
+const Inicio = () =>
+  <>
+    <div className="home">
+
+      <section>
+        <p>Flávio Leite </p>
+        <p>da Silva</p>
+        <div>
+          <p>Desenvolvedor Front-End</p><span>|</span>
+          <p>Estudante e futuro Desenvolvedor Full Stack</p>
+        </div>
+      </section>
+      <MediaSocial />
+    </div>
   </>
 
 const About = () =>
@@ -23,7 +39,6 @@ const About = () =>
     <div className="header__left">
       <h1>Olá! Sou Flávio Silva Desenvolvedor Front End</h1>
       <p className="texto">Hoje, <span className="escrever-texto"></span></p>
-
       <p>
         Desenvolvedor Front-End em crescimento através de experiências com criação de projetos escaláveis e responsivos. Sou atraído por criar soluções tecnológicas e pesquisas que me impulsionam na direção dos projetos de Back-End, resolvendo problemas reais e agregando valor aos usuários. A cada desafio, meu desejo de explorar o mundo do desenvolvimento de Back-End cresce, e estou empolgado para embarcar nessa nova etapa da minha carreira.
       </p>
@@ -187,6 +202,9 @@ const App = () => {
     <>
       {/* HEADER */}
       <Header />
+
+      {/* INICIO */}
+      <Inicio />
 
       {/* SOBRE */}
       <About />
