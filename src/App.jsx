@@ -460,24 +460,18 @@ const App = () => {
                 <p><i className="fas fa-phone"></i>+55 (71) 99836-2020</p>
                 <p><i className="fas fa-envelope"></i>fal_silva@hotmail.com</p>
                 <div className="share">
-                  {/* <a
-                  href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/"
-                  className="fab fa-linkedin"
-                  aria-label="LinkedIn"
-                  target="_blank"
-                ></a>
-                <a
-                  href="https://github.com/flavio16silva"
-                  className="fab fa-github"
-                  aria-label="GitHub"
-                  target="_blank"
-                ></a>
-                <a 
-                href="#" 
-                className="fas fa-envelope" 
-                aria-label="Mail" 
-                target="_blank" 
-                ></a> */}
+                  <a
+                    href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/"
+                    className="fab fa-linkedin"
+                    aria-label="LinkedIn"
+                    target="_blank" rel="noopener noreferrer"
+                  ></a>
+                  <a
+                    href="https://github.com/flavio16silva"
+                    className="fab fa-github"
+                    aria-label="GitHub"
+                    target="_blank" rel="noopener noreferrer"
+                  ></a>
                 </div>
               </div>
             </div>
