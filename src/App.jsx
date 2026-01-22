@@ -162,7 +162,7 @@ const App = () => {
               {/*Seção dos Cards*/}
               <div className="cards">
                 <label className="card" htmlFor="item-1" id="panf-1">
-                  <img className="foto" src="assets/cards13.png" alt="" />
+                  <img className="foto" src="/images/cards_web.png" alt="" />
                   <h1>Web</h1>
                   <p>
                     Nesse campo de trabalho crescente da <strong>Web</strong> busco informações, projetos e criações que podem ser aprimoradas. São rotinas e prazos de entrega que geram melhorias no dinamismo e aceleração das práticas diárias.
@@ -171,7 +171,7 @@ const App = () => {
                 </label>
 
                 <label className="card" htmlFor="item-2" id="panf-2">
-                  <img src="assets/cards9.jpg" alt="" />
+                  <img src="/images/cards_response.jpg" alt="" />
                   <h1>Responsivo</h1>
                   <p>
                     Um campo de estudos e criação de projetos, a <strong>Responsividade</strong> tem proporcionado boas práticas com mobile first gerando desafios e melhorias continuas. As ferramentas de Grid e Flexbox tem amparado e norteado a compreensão da adaptabilidade dos dispositivos.
@@ -180,7 +180,7 @@ const App = () => {
                 </label>
 
                 <label className="card" htmlFor="item-3" id="panf-3">
-                  <img src="assets/cards7.jpg" alt="" />
+                  <img src="/images/cards_estudos.jpg" alt="" />
                   <h1>Estudos</h1>
                   <p>
                     Explorando projetos com maior grau de complexidade e buscando metas alcançaveis  nos <strong>estudos</strong>, isso tem gerado desafios e bons resultados. São anotações, planejamentos, escolhas de layout e aprimoramento das técnicas de uso das tecnologias.
