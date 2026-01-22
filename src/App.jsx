@@ -25,31 +25,38 @@ const Navbar = () => (
   </nav>
 )
 
+const Header = () => (
+  <header id="header" className="max-width">
+    <Navbar />
+    <div className="header__left">
+      <h1>Olá! Sou Flávio Silva Desenvolvedor Front End</h1>
+      <p className="texto">Hoje, <span className="escrever-texto"></span></p>
+
+      <p>
+        Desenvolvedor Front-End em crescimento através de experiências com criação de projetos escaláveis e responsivos. Sou atraído por criar soluções tecnológicas e pesquisas que me impulsionam na direção dos projetos de Back-End, resolvendo problemas reais e agregando valor aos usuários. A cada desafio, meu desejo de explorar o mundo do desenvolvimento de Back-End cresce, e estou empolgado para embarcar nessa nova etapa da minha carreira.
+      </p>
+      <a href="#about" className="btn btn-primary">Saiba Mais!<i className="fas fa-arrow-circle-down"></i></a>
+    </div>
+
+    <div className="header__right">
+      <div className="header__image">
+        <img src="/images/flaviosilva.jpg" alt="Flavio Silva" className="flavio" />
+        <img src="/images/abstract.svg" alt="background" className="background" />
+      </div>
+    </div>
+  </header>
+)
+
 const App = () => {
   return (
     <>
+      {/* HEADER */}
+      <Header />
+
       {/* NAVBAR */}
       <Navbar />
 
-      {/* HEADER */}
-      <header id="header" className="max-width">
-        <div className="header__left">
-          <h1>Olá! Sou Flávio Silva Desenvolvedor Front End</h1>
-          <p className="texto">Hoje, <span className="escrever-texto"></span></p>
 
-          <p>
-            Desenvolvedor Front-End em crescimento através de experiências com criação de projetos escaláveis e responsivos. Sou atraído por criar soluções tecnológicas e pesquisas que me impulsionam na direção dos projetos de Back-End, resolvendo problemas reais e agregando valor aos usuários. A cada desafio, meu desejo de explorar o mundo do desenvolvimento de Back-End cresce, e estou empolgado para embarcar nessa nova etapa da minha carreira.
-          </p>
-          <a href="#about" className="btn btn-primary">Saiba Mais!<i className="fas fa-arrow-circle-down"></i></a>
-        </div>
-
-        <div className="header__right">
-          <div className="header__image">
-            <img src="/images/flaviosilva.jpg" alt="Flavio Silva" className="flavio" />
-            <img src="/images/abstract.svg" alt="background" className="background" />
-          </div>
-        </div>
-      </header>
 
       {/* SOBRE */}
       <section id="about" className="about max-width">
