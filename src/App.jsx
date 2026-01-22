@@ -142,14 +142,6 @@ const App = () => {
               {/*Teste*/}
               <div className="bar">
                 <div className="info">
-                  <img src="assets/java1.png" />
-                  <span>JAVA</span>
-                  <h3>15%</h3>
-                </div>
-              </div>
-
-              <div className="bar">
-                <div className="info">
                   <img src="/images/python.png" />
                   <span>PYTHON</span>
                   <h3>10%</h3>
