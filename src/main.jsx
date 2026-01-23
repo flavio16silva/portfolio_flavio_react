@@ -1,8 +1,8 @@
 import { StrictMode } from "react"
 import { createRoot } from "react-dom/client"
 import { App } from "./App.jsx"
-import './css/extends.css'
 import "./index.css"
+// import './css/extends.css'
 
 const rootElement = document.querySelector('[data-js="root"]')
 
