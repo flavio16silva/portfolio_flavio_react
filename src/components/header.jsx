@@ -23,7 +23,7 @@ const Header = () => {
       id="header" className="w-full min-h-screen bg-black bg-linear-to-br from-[#051b1a] via-black to-[#02110f]" >
 
       {/* NAVBAR */}
-      <nav className="fixed top-8 left-0 right-0 z-50 ">
+      <nav className="absolute top-8 left-0 right-0 z-50 ">
         <div className={containerClass}>
           <div className="flex items-center h-16">
             <ul className="flex w-full justify-between text-center md:w-auto md:justify-start md:space-x-12">
