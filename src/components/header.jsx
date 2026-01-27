@@ -77,7 +77,7 @@ const Header = () => {
         {/* SUBTÍTULO */}
         <div className="flex flex-wrap items-center gap-4 text-emerald-400 uppercase text-sm md:text-base tracking-wider">
           <span>Desenvolvedor Front-end</span>
-          <span className="opacity-50 font-extrabold ">|</span>
+          <span className="opacity-70 font-extrabold ">|</span>
           <span>Estudante de Desenvolvimento Web Full Stack</span>
         </div>
       </div>
