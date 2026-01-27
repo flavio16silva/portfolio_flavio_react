@@ -55,10 +55,9 @@ const Header = () => {
 
           {/* SEGUNDO NOME */}
           <span
-            className={`mt-4 text-base md:text-xl lg:text-2xl font-semibold uppercase text-emerald-400 tracking-[2.6em]
-              pl-4 md:pl-2 lg:pl-2
-             duration-700 ease-out
-              `}
+            className={`mt-4 text-base md:text-xl lg:text-2xl font-semibold uppercase text-emerald-400 
+            tracking-[1.8em] md:tracking-[2.6em] lg:tracking-[3.0em] pl-1 md:pl-2 lg:pl-2 duration-700 ease-out
+            `}
           >
             <>
               {splitLetters("DA").map((letter, index) => (
