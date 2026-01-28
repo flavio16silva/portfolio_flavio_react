@@ -32,7 +32,7 @@ const Header = () => {
                   <a
                     href={`#${item}`}
                     onClick={() => setCurrentPage(item)}
-                    className={`uppercase text-sm md:text-base lg:text-lg tracking-widest transition-colors
+                    className={`uppercase text-sm  lg:text-lg tracking-widest transition-colors
                       ${currentPage === item ? "text-emerald-400" : "text-white "}`}
                   >
                     {item}
@@ -46,9 +46,9 @@ const Header = () => {
 
       {/* HERO */}
       <div className={`flex flex-col justify-center min-h-screen pt-24 ${containerClass}`} >
-        <h1 className="mb-10 leading-none max-w-fit">
+        <h1 className="mb-10 leading-none w-full flex flex-col items-center text-center sm:items-start sm:text-left">
           {/* PRIMEIRO NOME */}
-          <span className={`block text-5xl md:text-7xl lg:text-8xl font-bold
+          <span className={`block text-3xl sm:text-4x1 md:text-6xl lg:text-7xl font-bold
            text-emerald-400 duration-700 ease-out 
            `}
           > {name.firstLine} </span>
@@ -56,7 +56,10 @@ const Header = () => {
           {/* SEGUNDO NOME */}
           <span
             className={`mt-4 text-base md:text-xl lg:text-2xl font-semibold uppercase text-emerald-400 
-            tracking-[1.8em] md:tracking-[2.6em] lg:tracking-[3.0em] pl-1 md:pl-2 lg:pl-2 duration-700 ease-out
+            tracking-[0.7em] md:tracking-[2.0em] lg:tracking-[2.0em] pl-1 sm:pl-2 md:pl-2 lg:pl-2 duration-700 ease-out
+            sm:-translate-x-[0.35em]
+            md:-translate-x-[0.2em]
+            lg:-translate-x-[0.2em]
             `}
           >
             <>
@@ -75,10 +78,34 @@ const Header = () => {
 
 
         {/* SUBTÍTULO */}
-        <div className="flex flex-wrap items-center gap-4 text-emerald-400 uppercase text-sm md:text-base tracking-wider">
-          <span>Desenvolvedor Front-end</span>
-          <span className="opacity-70 font-extrabold ">|</span>
-          <span>Estudante de Desenvolvimento Web Full Stack</span>
+        <div className="
+        flex 
+        flex-wrap 
+        items-center 
+        gap-4 
+        text-emerald-400 
+        uppercase 
+        text-center 
+        md:text-center 
+        tracking-wider
+        ">
+          <span className="
+              block
+              w-full
+              text-center
+              sm:w-auto
+              sm:inline-flex
+              ">
+            Desenvolvedor Front-end</span>
+          <span className="hidden sm:inline opacity-70 font-extrabold ">|</span>
+          <span className="
+                block
+                w-full
+                text-center
+                sm:w-auto
+                sm:inline-flex
+                ">
+            Estudante de Desenvolvimento Web Full Stack</span>
         </div>
       </div>
     </header >
