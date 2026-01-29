@@ -63,15 +63,19 @@ const Header = () => {
             `}
           >
             <>
-              {splitLetters("DA").map((letter, index) => (
-                <span key={`da-${index}`}>{letter}</span>
-              ))}
+              <span className="inline-flex translate-x-[0.22em] sm:translate-x-0">
+                {splitLetters("DA").map((letter, index) => (
+                  <span key={`da-${index}`}>{letter}</span>
+                ))}
+              </span>
 
               <span className="mx-6 opacity-50" />
 
-              {splitLetters("SILVA").map((letter, index) => (
-                <span key={`silva-${index}`}>{letter}</span>
-              ))}
+              <span className="inline-flex translate-x-[0.5em] sm:translate-x-0 md:pl-0 pl-[0.3em]">
+                {splitLetters("SILVA").map((letter, index) => (
+                  <span key={`silva-${index}`}>{letter}</span>
+                ))}
+              </span>
             </>
           </span>
         </h1>
