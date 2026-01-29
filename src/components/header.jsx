@@ -20,7 +20,7 @@ const Header = () => {
 
   return (
     <header
-      id="header" className="w-full min-h-screen bg-black bg-linear-to-br from-[#051b1a] via-black to-[#02110f]" >
+      id="header" className="relative min-h-screen bg-cover bg-top bg-[50_30%]" style={{ backgroundImage: "url('/images/bg-home1.jpg')" }} >
 
       {/* NAVBAR */}
       <nav className="absolute top-8 left-0 right-0 z-50 ">
