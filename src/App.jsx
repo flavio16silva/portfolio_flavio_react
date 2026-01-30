@@ -1,72 +1,48 @@
 import { Header } from "./components/header"
+import { About } from "./components/about"
+
 // import BackgroundLines from './components/BackgroundLines';
 
-const MediaSocial = () => (
-  <section>
-    <a
-      href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/"
-      className="fab fa-linkedin"
-      aria-label="LinkedIn"
-      target="_blank" rel="noopener noreferrer"
-    ></a>
-    <a
-      href="https://github.com/flavio16silva"
-      className="fab fa-github"
-      aria-label="GitHub"
-      target="_blank" rel="noopener noreferrer"
-    ></a>
-    <a
-      href="mailto:fal_silva@hotmail.com"
-      className="fas fa-envelope"
-      aria-label="Email"
-      target="_blank" rel="noopener noreferrer"
-    ></a>
-  </section>
-)
+// const MediaSocial = () => (
+//   <section>
+//     <a
+//       href="https://www.linkedin.com/in/fl%C3%A1vio-silva-7080b848/"
+//       className="fab fa-linkedin"
+//       aria-label="LinkedIn"
+//       target="_blank" rel="noopener noreferrer"
+//     ></a>
+//     <a
+//       href="https://github.com/flavio16silva"
+//       className="fab fa-github"
+//       aria-label="GitHub"
+//       target="_blank" rel="noopener noreferrer"
+//     ></a>
+//     <a
+//       href="mailto:fal_silva@hotmail.com"
+//       className="fas fa-envelope"
+//       aria-label="Email"
+//       target="_blank" rel="noopener noreferrer"
+//     ></a>
+//   </section>
+// )
 
-const Inicio = () =>
-  <>
-    <div className="home">
+// const Inicio = () =>
+//   <>
+//     <div className="home">
 
-      <section>
-        <p>Flávio Leite </p>
-        <p>da Silva</p>
-        <div>
-          <p>Desenvolvedor Front-End</p><span>|</span>
-          <p>Estudante e futuro Desenvolvedor Full Stack</p>
-        </div>
-      </section>
-      <MediaSocial />
-    </div>
-  </>
+//       <section>
+//         <p>Flávio Leite </p>
+//         <p>da Silva</p>
+//         <div>
+//           <p>Desenvolvedor Front-End</p><span>|</span>
+//           <p>Estudante e futuro Desenvolvedor Full Stack</p>
+//         </div>
+//       </section>
+//       {/* <MediaSocial /> */}
+//     </div>
+//   </>
 
-const About = () =>
-  <>
-    <div className="header__left">
-      <h1>Olá! Sou Flávio Silva Desenvolvedor Front End</h1>
-      <p className="texto">Hoje, <span className="escrever-texto"></span></p>
-      <p>
-        Olá, sou Flávio Silva, um entusiasta de desenvolvimento Front-End em busca constante de conhecimento e aprendizado nas mais recentes tecnologias.
-        Embora minha experiência em desenvolvimento web seja recente, tenho dedicado meu tempo a trabalhar com diversas tecnologias e plataformas,
-        com o objetivo de criar soluções que atendam de forma eficaz às necessidades dos clientes.
-        Desenvolvedor Front-End em crescimento através de experiências com criação de projetos escaláveis e responsivos.
-        Sou atraído por criar soluções tecnológicas e pesquisas que me impulsionam na direção dos projetos de Back-End,
-        resolvendo problemas reais e agregando valor aos usuários. A cada desafio, meu desejo de explorar o mundo do desenvolvimento de Back-End cresce,
-        e estou empolgado para embarcar nessa nova etapa da minha carreira.
-        Desafios complexos são minha motivação, e estou sempre em busca de soluções inovadoras e criativas para superá-los.
-        A cada dia, reservo tempo para aprofundar meu entendimento e aprimorar minhas habilidades nas tecnologias atuais.
-        Minha paixão pela aprendizagem constante é o motor que impulsiona meu crescimento profissional.
-        Estou ansioso para enfrentar novos desafios e contribuir para projetos empolgantes.
-      </p>
-    </div>
 
-    <div className="header__right">
-      <div className="header__image">
-        <img src="/images/flaviosilva.jpg" alt="Flavio Silva" className="flavio" />
-        <img src="/images/abstract.svg" alt="background" className="background" />
-      </div>
-    </div>
-  </>
 
 const Habilidades = () =>
   <>
@@ -100,6 +76,7 @@ const Habilidades = () =>
             </p>
           </li>
         </ul>
+
 
         <p className="linguagens">Abaixo algumas das linguagens que estudo, prático, crio e executo projetos.</p>
 
@@ -418,7 +395,7 @@ const Projetos = () =>
 
 
 
-  
+
 const App = () => {
   return (
     <>
@@ -426,7 +403,7 @@ const App = () => {
       <Header />
 
       {/* INICIO */}
-      <Inicio />
+      {/* <Inicio /> */}
 
       {/* SOBRE */}
       <About />
