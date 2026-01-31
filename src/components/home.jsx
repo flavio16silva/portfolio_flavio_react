@@ -12,7 +12,7 @@ const splitName = (fullName) => {
 
 const splitLetters = (text) => text.split("")
 
-const Header = () => {
+const Home = () => {
   const [currentPage, setCurrentPage] = useState("inicio")
 
   const name = splitName("FLÁVIO LEITE DA SILVA")
@@ -117,4 +117,4 @@ const Header = () => {
 }
 
 
-export { Header }
+export { Home }
