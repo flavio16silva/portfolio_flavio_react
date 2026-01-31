@@ -1,4 +1,4 @@
-import { Header } from "./components/header"
+import { Home } from "./components/home"
 import { About } from "./components/about"
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom"
 
@@ -401,7 +401,7 @@ const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route>
-        <Route path="/" element={<Header />} />
+        <Route path="/" element={<Home />} />
         <Route path="sobre" element={<About />} />
         <Route path="projetos" element={<Projetos />} />
       </Route>
