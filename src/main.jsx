@@ -1,8 +1,10 @@
 import { StrictMode } from "react"
 import { createRoot } from "react-dom/client"
+
+
 import { App } from "./App.jsx"
 import "./index.css"
-// import './css/extends.css'
+
 
 const rootElement = document.querySelector('[data-js="root"]')
 
@@ -14,15 +16,4 @@ root.render(
   </StrictMode>,
 )
 
-/*Antes
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { App } from './App.jsx'
-import './index.css'
 
-ReactDOM.createRoot(document.querySelector('[data-js="root"]')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
-*/
