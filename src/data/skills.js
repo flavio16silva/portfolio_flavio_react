@@ -13,7 +13,7 @@ import {
 import { GrMysql } from "react-icons/gr";
 
 export const skills = [
-  { name: "", icon: SiHtml5 },
+  { name: "HTML", icon: SiHtml5 },
   { name: "CSS", icon: SiCss3 },
   { name: "Javascript", icon: SiJavascript },
   { name: "Bootstrap", icon: SiBootstrap },
