@@ -1,7 +1,7 @@
 import { skills } from "../data/skills"
 
 const About = () =>
-  <div className="text-white min-h-screen bg-cover bg-center bg-no-repeat"
+  <div className="text-white min-h-screen bg-cover bg-center bg-no-repeat bg-fixed"
     style={{ backgroundImage: "url('/images/bg-sobre.jpg')" }}>
 
     <div className="max-w-7xl mx-auto px-12 md:px-24 lg:px-32 pt-30 pb-12">
@@ -43,7 +43,7 @@ const About = () =>
 
       {/* Tecnologias COMPACTAS */}
       <div>
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 uppercase">
           Tecnologias
         </h2>
 
