@@ -22,7 +22,7 @@ const About = () =>
             Sou formado em Administração, mas sempre tive a
             <span className="text-[rgb(10,255,169)]"> tecnologia no coração </span>
             — especialmente o desenvolvimento. A paixão por transformar ideias
-            em código é minha jornada de crescimento e por isso,
+            em código motiva minha jornada de crescimento e por isso,
             <span className="text-[rgb(10,255,169)]"> começo no Front End</span>.
           </p>
           <p className="text-base md:text-lg" >
@@ -39,7 +39,7 @@ const About = () =>
         </div>
       </div>
 
-      <div className="my-10 border-t border-gray-600/50"></div>
+      <div className="my-10 border-t-2 border-[rgb(10,255,169,0.5)]"></div>
 
       {/* Tecnologias COMPACTAS */}
       <div>
