@@ -4,31 +4,42 @@ const About = () =>
   <div className="text-white min-h-screen bg-cover bg-center bg-no-repeat"
     style={{ backgroundImage: "url('/images/bg-sobre.jpg')" }}>
 
-    <div className="max-w-7xl mx-auto px-12 md:px-24 lg:px-32 pt-40 pb-12">
-      <div className="mb-16">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8">
-          Olá! Sou Flávio Silva 
+    <div className="max-w-7xl mx-auto px-12 md:px-24 lg:px-32 pt-30 pb-12">
+      <div className="mb-10">
+        <h1 className="text-2xl md:text-3xl font-bold mb-6">
+          Olá! Sou <span className="text-[rgb(10,255,169)]" >Flávio Silva</span>
         </h1>
 
-        <p className="text-justify leading-relaxed">
-          Desenvolvedor Front End, um entusiasta de desenvolvimento Front-End em busca constante
-          de conhecimento e aprendizado nas mais recentes tecnologias. Embora minha experiência
-          em desenvolvimento web seja recente, tenho dedicado meu tempo a trabalhar com diversas
-          tecnologias e plataformas, com o objetivo de criar soluções que atendam de forma eficaz
-          às necessidades dos clientes. Desenvolvedor Front-End em crescimento através de experiências
-          com criação de projetos escaláveis e responsivos. Sou atraído por criar soluções tecnológicas
-          e pesquisas que me impulsionam na direção dos projetos de Back-End, resolvendo problemas reais
-          e agregando valor aos usuários. A cada desafio, meu desejo de explorar o mundo do desenvolvimento
-          de Back-End cresce, e estou empolgado para embarcar nessa nova etapa da minha carreira.
-          Desafios complexos são minha motivação, e estou sempre em busca de soluções inovadoras e
-          criativas para superá-los. A cada dia, reservo tempo para aprofundar meu entendimento e
-          aprimorar minhas habilidades nas tecnologias atuais. Minha paixão pela aprendizagem constante
-          é o motor que impulsiona meu crescimento profissional. Estou ansioso para enfrentar novos
-          desafios e contribuir para projetos empolgantes.
-        </p>
+        <div className="text-justify leading-normal space-y-4">
+          <p className="text-base md:text-lg" >
+            <span className="text-[rgb(10,255,169)]">Desenvolvedor Front End em
+              formação</span>, atuando na migração de carreira a partir da área de
+            suporte técnico. Minha rotina é baseada na constância e na busca
+            contínua por conhecimento, com o objetivo de criar soluções
+            práticas e eficazes.
+          </p>
+          <p className="text-base md:text-lg" >
+            Sou formado em Administração, mas sempre tive a
+            <span className="text-[rgb(10,255,169)]"> tecnologia no coração </span>
+            — especialmente o desenvolvimento. A paixão por transformar ideias
+            em código é minha jornada de crescimento e por isso,
+            <span className="text-[rgb(10,255,169)]"> começo no Front End</span>.
+          </p>
+          <p className="text-base md:text-lg" >
+            Atualmente, tenho me dedicado a aprofundar meus estudos em
+            <span className="text-[rgb(10,255,169)]"> JavaScript, ReactJS e
+              Banco de Dados</span>
+            .
+          </p>
+          <p className="text-base md:text-lg" >
+            Estudo por meio de cursos, vídeos e projetos freelance, mas o que
+            realmente move meu dia a dia é a prática: <span className="text-[rgb(10,255,169)]"> criar, melhorar e evoluir. </span>
+            Cada linha de código me aproxima do meu caminho como desenvolvedor.
+          </p>
+        </div>
       </div>
 
-      <div className="my-12 border-t border-gray-600/50"></div>
+      <div className="my-10 border-t border-gray-600/50"></div>
 
       {/* Tecnologias COMPACTAS */}
       <div>
