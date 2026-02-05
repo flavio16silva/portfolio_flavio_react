@@ -10,7 +10,7 @@ const Home = () => {
       <div className={`flex flex-col lg:flex-row items-center justify-center lg:justify-between min-h-screen ${containerClass}`} >
         {/* TEXTO */}
         <div className="lg:w-3/5 flex flex-col justify-center mb-6 sm:mb-8 lg:mb-0">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-emerald-400 ease-out text-center lg:text-left"> FLÁVIO SILVA </h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-emerald-400 ease-out text-center lg:text-left animate-pulse"> FLÁVIO SILVA </h1>
 
           {/* SUBTÍTULO */}
           <div className="flex flex-wrap items-center gap-4 text-emerald-400 uppercase tracking-wider justify-center lg:justify-start mt-4 sm:mt-6 ">
