@@ -7,43 +7,47 @@ const About = () =>
     <div className="max-w-7xl mx-auto px-12 md:px-24 lg:px-32 pt-30 pb-12">
       <div className="mb-10">
         <h1 className="text-2xl md:text-3xl font-bold mb-6">
-          Olá! Sou <span className="text-[rgb(10,255,169)]" >Flávio Silva</span>
+          Olá! Sou <span className="text-[rgb(10,255,169)]">Flávio Leite da Silva</span>
         </h1>
 
         <div className="text-justify leading-normal space-y-4">
-          <p className="text-base md:text-lg" >
+          <p className="text-sm md:text-lg" >
             <span className="text-[rgb(10,255,169)]">Desenvolvedor Front End em
               formação</span>, atuando na migração de carreira a partir da área de
             suporte técnico. Minha rotina é baseada na constância e na busca
             contínua por conhecimento, com o objetivo de criar soluções
             práticas e eficazes.
           </p>
-          <p className="text-base md:text-lg" >
+          <p className="text-sm md:text-lg" >
             Sou formado em Administração, mas sempre tive a
             <span className="text-[rgb(10,255,169)]"> tecnologia no coração </span>
             — especialmente o desenvolvimento. A paixão por transformar ideias
-            em código motiva minha jornada de crescimento e por isso,
+            em código motiva minha jornada e por isso,
             <span className="text-[rgb(10,255,169)]"> começo no Front End</span>.
           </p>
-          <p className="text-base md:text-lg" >
+          <p className="text-sm md:text-lg" >
             Atualmente, tenho me dedicado a aprofundar meus estudos em
             <span className="text-[rgb(10,255,169)]"> JavaScript, ReactJS e
               Banco de Dados</span>
             .
           </p>
-          <p className="text-base md:text-lg" >
-            Estudo por meio de cursos, vídeos e projetos freelance, mas o que
-            realmente move meu dia a dia é a prática: <span className="text-[rgb(10,255,169)]"> criar, melhorar e evoluir. </span>
+          <p className="text-sm md:text-lg" >
+            Estudo através de cursos e projetos, mas o que
+            move meu cotidiano é a prática: <span className="text-[rgb(10,255,169)]"> criar, melhorar e evoluir. </span>
             Cada linha de código me aproxima do meu caminho como desenvolvedor.
+          </p>
+          <p className="text-sm md:text-lg font-bold text-[rgb(10,255,169)]">
+            Que privilégio você aqui. Fique a vontade para descobrir mais.
           </p>
         </div>
       </div>
 
-      <div className="my-10 border-t-2 border-[rgb(10,255,169,0.5)]"></div>
 
-      {/* Tecnologias COMPACTAS */}
+      <div className="my-6 border-t-2 border-[rgb(10,255,169,0.5)]"></div>
+
+      {/* Tecnologias*/}
       <div>
-        <h2 className="text-2xl md:text-3xl font-bold mb-8 uppercase">
+        <h2 className="text-lg md:text-2xl font-bold mb-8 uppercase">
           Tecnologias
         </h2>
 
@@ -74,17 +78,3 @@ const About = () =>
   </div>
 
 export { About }
-
-
-
-
-
-{/* <div className="header__right">
-      <div className="header__image">
-        <img src="/images/flaviosilva.jpg" alt="Flavio Silva" className="flavio" />
-        <img src="/images/abstract.svg" alt="background" className="background" />
-      </div>
-    </div> */}
-
-
-
