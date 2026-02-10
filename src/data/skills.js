@@ -10,8 +10,8 @@ import {
   SiGithub,
   SiPostgresql,
   SiGitlab
-} from "react-icons/si";
-import { GrMysql } from "react-icons/gr";
+} from "react-icons/si"
+import { GrMysql } from "react-icons/gr"
 
 export const skills = [
   { name: "HTML", icon: SiHtml5 },
@@ -25,8 +25,9 @@ export const skills = [
   { name: "Github", icon: SiGithub },
   { name: "Gitlab", icon: SiGitlab },
   { name: "Mysql", icon: GrMysql },
-  { name: "Postgresql", icon: SiPostgresql },
+  { name: "Postgresql", icon: SiPostgresql }  
 ]
+  
 
 
 
