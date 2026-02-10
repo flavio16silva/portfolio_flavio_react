@@ -18,11 +18,12 @@ const Social = () => {
           className="
             flex items-center justify-center 
             w-12 h-12 
-            text-gray-700 dark:text-gray-300
+            dark:text-gray-300
             hover:text-[rgb(10,255,169)]
+            hover:border-2 rounded-full
+            border-[rgb(10,255,169)]
             transition-all duration-300 
             hover:scale-110 hover:shadow-lg
-            hover:border-[rgb(10,255,169)]
             cursor-pointer
           "
         >
