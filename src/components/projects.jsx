@@ -36,7 +36,7 @@ const Projects = () => {
             <li key={project.id}>
               {/* Card Único com hover em tudo */}
               <div className="group flex flex-col lg:flex-row dark:hover:bg-gray-900 rounded-xl shadow-xl/30 overflow-hidden transition-all duration-300 h-full
-              
+              hover:border-2 hover:border-[rgb(10,255,169)]/20
               ">
 
                 {/* Imagem - Lado Esquerdo */}
