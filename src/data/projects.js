@@ -55,12 +55,39 @@ export const projects = [
   },
   {
     id: 7,
+    title: "Rede Social",
+    image: "/images/redesocial.jpeg",
+    repoLink: "https://github.com/flavio16silva/ProjetoRedeSocial",
+    infoTitle: "Projeto Rede Social",
+    description: "Entendendo as redes sociais, interação do usuário, comportamento dos ícones, cores e layout. Dimensionar e alinhar informações no código. Melhorar a experiência visual para o usuário.",
+    tech: ["HTML", "CSS"]
+  },
+  {
+    id: 8,
     title: "Controle Financeiro",
     image: "/images/controleFinanceiro.jpg",
     repoLink: "https://github.com/flavio16silva/Controle-Financeiro",
     infoTitle: "Controle Financeiro",
     description: "Um Controle Financeiro, onde adiciona as transações no DOM, executa o preenchimento das informações do estado da aplicação quando a pagina for carregada, atualiza o valor das transações na tela (Saldo, Receitas e Despesas), armazenamento e adição das Transações Realizadas no Local Storage, remoção de Transações e execução dos eventos no formulário.",
     tech: ["HTML", "CSS", "Javascript"]
+  },
+  {
+    id: 9,
+    title: "Estofaria",
+    image: "/images/estofaria.jpeg",
+    repoLink: "https://github.com/flavio16silva/ProjetoEstofaria_Bootstrap",
+    infoTitle: "Estofaria",
+    description: "Esse projeto foi um aprendizado na lógica de interação do usuário com uso do javascript, organização de componentes e imagens na tela. Todo o site tem por objetivo interagir e manter o usuário interessado em conhecer os serviços criados.",
+    tech: ["HTML", "CSS", "Bootstrap"]
+  },
+  {
+    id: 10,
+    title: "Claudia Page",
+    image: "/images/claudiaPage.jpeg",
+    repoLink: "https://github.com/flavio16silva/ProjetoClaudia_Bootstrap",
+    infoTitle: "Claudia Page",
+    description: "Projeto Freelance para uso no ramo de psicologia com foco no atendimento ao cliente. Mostrar aos clientes os serviços, campos de atendimento da psicóloga. Página limpa, com informações necessárias e diretas. Sempre em contato com a cliente sobre mudanças e melhorias.",
+    tech: ["HTML", "CSS", "Bootstrap"]
   }
 ]
 
