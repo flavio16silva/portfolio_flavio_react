@@ -6,7 +6,8 @@ const Navbar = () => {
   const navItems = [
     { path: "/", label: "inicio" },
     { path: "/sobre", label: "sobre" },
-    { path: "/projetos", label: "projetos" }
+    { path: "/projetos", label: "projetos" },
+    { path: "/contato", label: "contato" }
   ]
 
   return (
