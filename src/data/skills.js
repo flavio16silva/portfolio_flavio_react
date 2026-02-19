@@ -9,9 +9,12 @@ import {
   SiGit,
   SiGithub,
   SiPostgresql,
-  SiGitlab
+  SiGitlab,
+  SiPostman,
+  SiInsomnia
 } from "react-icons/si"
 import { GrMysql } from "react-icons/gr"
+import { VscVscode } from "react-icons/vsc"
 
 export const skills = [
   { name: "HTML", icon: SiHtml5 },
@@ -25,9 +28,12 @@ export const skills = [
   { name: "Github", icon: SiGithub },
   { name: "Gitlab", icon: SiGitlab },
   { name: "Mysql", icon: GrMysql },
-  { name: "Postgresql", icon: SiPostgresql }  
+  { name: "Postgresql", icon: SiPostgresql },
+  { name: "VsCode", icon: VscVscode },
+  { name: "Postman", icon: SiPostman },
+  { name: "Insomnia", icon: SiInsomnia }
 ]
-  
+
 
 
 
