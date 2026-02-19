@@ -32,11 +32,11 @@ const Contato = () => {
   }
 
   return (
-    <div className='min-h-screen bg-black overflow-hidden'>
-      <div className='container mx-auto py-8 px-4 h-full overflow-y-auto'>
-        <h1 className='text-3xl sm:text-4xl font-bold text-center text-white mb-2 mt-20'>
-          Contato
-        </h1>
+    <div className='min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-black'>
+      <div className='container mx-auto py-8 px-4'>
+        <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-10 mt-20">
+          Contate-me.
+        </h2>
         <div className="max-w-4xl mx-auto">
           <form onSubmit={handleSubmit} className='rounded-lg p-6'>
             <h1 className='block text-left text-xl md:text-2xl font-bold text-white mb-6 mt-2'>
