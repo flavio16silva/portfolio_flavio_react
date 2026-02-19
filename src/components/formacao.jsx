@@ -8,11 +8,11 @@ const Formacao = () => {
           Formação
         </h2>
 
-        <div className="max-w-6xl mx-auto bg-black">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div className="max-w-6xl mx-auto bg-black ">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 ">
             {formacao.map(item => (
               <div key={item.id}
-                className="bg-gray-900 rounded-lg p-6 border border-gray-800 hover:border-[rgb(10,255,169)] hover:shadow-lg hover:shadow-[rgb(10,255,169)/10] transition-all duration-300"
+                className="bg-gray-900 rounded-lg p-6 border border-gray-800 transition-all duration-300 ease-in-out cursor-pointer hover:shadow-[0_0_15px_rgb(10,255,169)] hover:scale-105"
               >
                 <h3 className="text-[rgb(10,255,169)] font-bold text-lg mb-2 flex items-center gap-2">
                   <span className="w-1 h-5 bg-[rgb(10,255,169)] rounded-full"></span>
