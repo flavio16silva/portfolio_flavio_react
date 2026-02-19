@@ -48,11 +48,11 @@ const About = () =>
       {/* Tecnologias*/}
       <div>
         <h2 className="text-lg md:text-2xl font-bold mb-8 uppercase">
-          Tecnologias
+          Tecnologias e Ferramentas
         </h2>
 
         {/* Grid mais compacto */}
-        <section className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 md:gap-3">
+        <section className="grid grid-cols-5 sm:grid-cols-4 md:grid-cols-6 gap-2 md:gap-3">
           {skills.map((skill, index) => {
             const Icon = skill.icon;
             return (
