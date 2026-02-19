@@ -7,7 +7,7 @@ const Social = () => {
   )
 
   return (
-    <div className={`flex flex-row lg:flex-row gap-12 mt-10 justify-start lg:justify-start items-start lg:items-start`}>
+    <div className={`flex flex-row lg:flex-row gap-12 mt-6 justify-start lg:justify-start items-start lg:items-start`}>
       {socialIcons.map(({ name, icon: Icon, url }) => (
         <a
           key={name}
