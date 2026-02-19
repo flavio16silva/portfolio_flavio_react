@@ -96,11 +96,11 @@ const Projects = () => {
       </ul>
 
       {/* Rodapé */}
-      <div className="mt-12 text-center">
+      {/* <div className="mt-12 text-center">
         <p className="text-lg italic text-gray-400">
           O único limite para a realização do amanhã são as dúvidas de hoje.
         </p>
-      </div>
+      </div> */}
       {/* </section> */}
     </div >
   )
