@@ -1,3 +1,4 @@
+import { Social } from "./socialIcon"
 import { formacao } from "../data/formacao"
 
 const Formacao = () => {
@@ -33,6 +34,9 @@ const Formacao = () => {
                 <p className="text-white pl-3">{item.ano}</p>
               </div>
             ))}
+          </div>
+          <div className="flex justify-center">
+            <Social />
           </div>
         </div>
       </div >
