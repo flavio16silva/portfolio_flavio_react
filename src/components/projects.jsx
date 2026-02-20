@@ -9,6 +9,7 @@ const Projects = () => {
 
   const GithubIcon = getGitHubIcon()
 
+  // Buscar tecnologias
   const getTechData = (techName) => {
     const skill = skills.find(skill => skill.name.toLowerCase() === techName.toLowerCase()
     )
@@ -27,11 +28,11 @@ const Projects = () => {
         </h2>
       </div>
 
-      {/* Grid - 3 colunas de cards com tamanhos uniformes */}
+      {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
         {projects.map((project) => (
           <div key={project.id} className="h-full">
-            {/* Card com altura e largura fixas */}
+            {/* Card */}
             <div className="group flex flex-col bg-gray-900/50 rounded-xl border border-gray-800 overflow-hidden transition-all duration-300 hover:border-[rgb(10,255,169)] h-full w-full">
 
               {/* Container da imagem com tamanho fixo */}
@@ -54,7 +55,7 @@ const Projects = () => {
                 </p>
 
                 <div className="flex justify-between items-center pt-2 border-t border-gray-700">
-                  {/* Ícone GitHub - sempre no final */}
+                  {/* Ícone GitHub */}
                   <div className="flex items-center">
                     <a
                       href={project.repoLink}
