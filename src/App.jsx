@@ -3,6 +3,7 @@ import { About } from "./components/about"
 import { Navbar } from "./components/navbar"
 import { Projects } from "./components/projects"
 import { Formacao } from "./components/formacao"
+import { Resumo } from "./components/resumo"
 import { Contato } from "./components/contato"
 import {
   Route,
@@ -32,6 +33,7 @@ const App = () => {
         <Route path="/sobre" element={<About />} />
         <Route path="/projetos" element={<Projects />} />
         <Route path="/formacao" element={<Formacao />} />
+        <Route path="/resumo" element={<Resumo />} />
         <Route path="/contato" element={<Contato />} />
       </Route>
     )
