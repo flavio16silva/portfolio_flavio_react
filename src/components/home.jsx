@@ -31,9 +31,17 @@ const Home = () => {
             src="/images/fotoEu.jpg"
             alt="Flavio Silva"
             className="w-48 sm:w-56 md:w-64 lg:w-80 xl:w-96 
-                     h-auto object-cover rounded-full shadow-[0_0_30px_10px_rgba(255,255,255,0.2)]
-                     transform hover:scale-105 transition duration-300"
-            style={{ maxHeight: '400px', objectPosition: 'center top' }} />
+                     h-auto object-cover rounded-full shadow-[0_0_30px_10px_rgba(255,255,255,0.2)] "
+            style={{
+              maxHeight: '400px',
+              objectPosition: 'center top',
+              animation: 'float 3s ease-in-out infinite'
+            }} />
+          <style>{`
+              @keyframes float {
+              0%, 100% { transform: translateY(0px); }
+              50% { transform: translateY(-10px); }
+              }`}</style>
           <Social />
         </div>
       </div>
