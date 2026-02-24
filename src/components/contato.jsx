@@ -1,4 +1,4 @@
-import { Social } from "./socialIcon"
+import { IconSocial } from "./IconRedesSociais"
 import { useState } from 'react'
 
 const Contato = () => {
@@ -91,7 +91,7 @@ const Contato = () => {
             </div>
           </form>
           <div className="flex justify-center">
-            <Social />
+            <IconSocial />
           </div>
         </div>
       </div>
