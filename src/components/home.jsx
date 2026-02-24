@@ -1,4 +1,4 @@
-import { Social } from "./socialIcon"
+import { IconSocial } from "./IconRedesSociais"
 
 const Home = () => {
   const containerClass = "max-w-7xl mx-auto px-4 sm:px-8 md:px-12 lg:px-32"
@@ -42,7 +42,7 @@ const Home = () => {
               0%, 100% { transform: translateY(0px); }
               50% { transform: translateY(-10px); }
               }`}</style>
-          <Social />
+          <IconSocial />
         </div>
       </div>
     </header >
