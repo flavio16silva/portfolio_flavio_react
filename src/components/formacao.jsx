@@ -1,4 +1,4 @@
-import { Social } from "./socialIcon"
+import { IconSocial } from "./IconRedesSociais"
 import { formacao } from "../data/formacao"
 
 const Formacao = () => {
@@ -36,7 +36,7 @@ const Formacao = () => {
             ))}
           </div>
           <div className="flex justify-center">
-            <Social />
+            <IconSocial />
           </div>
         </div>
       </div >
