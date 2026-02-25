@@ -6,7 +6,7 @@ const Home = () => {
     <header
       id="header"
       className="relative min-h-screen bg-cover bg-top bg-[50_30%]"
-      style={{ backgroundImage: "url('/images/bg-home2.jpg')" }} >
+      style={{ backgroundImage: "url('/images/bg-home.jpg')" }} >
 
       {/* HERO */}
       <div className={`flex flex-col lg:flex-row items-center justify-center lg:justify-between min-h-screen ${containerClass}`} >
