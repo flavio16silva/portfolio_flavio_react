@@ -2,7 +2,7 @@ import { skills } from "../data/skills"
 
 const About = () =>
   <div className="text-white min-h-screen bg-cover bg-center bg-no-repeat bg-fixed"
-    style={{ backgroundImage: "url('/images/bg-sobre.jpg')" }}>
+    style={{ background: "radial-gradient(circle at 30% 30%, #1a1a1a, #000000)" }}>
 
     <div className="max-w-7xl mx-auto px-12 md:px-24 lg:px-32 pt-30 pb-12">
       <div className="mb-10">
