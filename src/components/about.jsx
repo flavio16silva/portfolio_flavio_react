@@ -63,7 +63,7 @@ const About = () =>
                   className={`text-3xl md:text-4xl ${skill.color} mb-1 
                            group-hover:scale-110 group-hover:text-[rgb(10,255,169)] transition-transform duration-300`}
                 />
-                <span className="text-xs md:text-sm 
+                <span className="hidden sm:block text-xs md:text-sm 
                                group-hover:text-[rgb(10,255,169)] transition-colors duration-300">
                   {skill.name}
                 </span>
