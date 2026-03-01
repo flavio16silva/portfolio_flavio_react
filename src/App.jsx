@@ -5,6 +5,7 @@ import { Projects } from "./components/projects"
 import { Formacao } from "./components/formacao"
 import { Resumo } from "./components/resumo"
 import { Contato } from "./components/contato"
+import Galaxy from "./components/galaxy"
 import {
   Route,
   createBrowserRouter,
@@ -17,6 +18,20 @@ import {
 const Layout = () => {
   return (
     <>
+      <Galaxy
+        mouseRepulsion={false}
+        mouseInteraction={false}
+        density={0.3}
+        glowIntensity={0.3}
+        saturation={0}
+        hueShift={140}
+        twinkleIntensity={0.3}
+        rotationSpeed={0.1}
+        repulsionStrength={2}
+        autoCenterRepulsion={0}
+        starSpeed={0.5}
+        speed={1.2}
+      />
       <Navbar />
       <Outlet />
     </>
@@ -29,7 +44,7 @@ const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/sobre" element={<About />} />
         <Route path="/projetos" element={<Projects />} />
         <Route path="/formacao" element={<Formacao />} />
