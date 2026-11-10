@@ -5,3 +5,5 @@
 * Uso de rotas para melhor usabilidade do usuário
 * Projeto antigo em HTML, CSS, JS e Bootstrap refeito e modernizado para React
 * Layout mais limpo e objetivo
+
+https://flaviosilvadev.netlify.app/ 
